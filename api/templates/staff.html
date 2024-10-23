@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app='FacilitiesList'>
+
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
+    <script src="static/app.js"></script>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/2.0.0/rzslider.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angularjs-slider/2.0.0/rzslider.min.js"></script>
+  </head>
+
+  <body ng-controller="myCtrl">
+	<a href="" style="float:right">Logout</a>
+    <header class="w3-container w3-light-grey w3-padding-16">
+    <h3>Facilities Availability</h3>
+    </header>
+    <ul ng-if="dataLoaded" class="w3-ul">
+      <li ng-repeat="f in facilities" class="w3-padding-16">
+        <div ng-bind="f.name"></div>
+        <rzslider style="width:300px"
+         rz-slider-model="f.availability"
+         rz-slider-options="slider.options"></rzslider>
+        <span ng-bind="AVAILABILITY[f.availability]"></span>
+        <button style="margin-left: 50px" ng-click="updateAvailability(f)">Update</button>
+      </li>
+    </ul>
+  </body>
+
+</html>
