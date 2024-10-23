@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UFO</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_facility_map">Map</string>
+    <string name="title_activity_facility_list">FacilityList</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_sport_list">SportList</string>
+    <string name="title_activity_sports_list">SportsList</string>
+    <string name="title_activity_facility_info">FacilityInfo</string>
+</resources>

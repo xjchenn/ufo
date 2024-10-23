@@ -1,0 +1,19 @@
+[
+  {
+    "sport": "Ping Pong",
+    "building": "UWP",
+    "status": "3",
+    "name": "UWP Ping Pong Table #1"
+  },
+  {
+    "sport": "Ping Pong",
+    "building": "PAC",
+    "status": "2",
+    "name": "PAC Ping Pong Table #1"
+  },
+  { "sport": "basketball",
+    "building": "UWPlace",
+    "status": "2",
+    "name": "UWPlace Basketball Court #1"
+  }
+]

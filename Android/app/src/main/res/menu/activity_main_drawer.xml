@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Find a Sport">
+        <menu>
+            <item
+                android:id="@+id/findsport"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Sports Portal" />
+        </menu>
+    </item>
+    <item android:title="Find a Building">
+        <menu>
+            <item
+                android:id="@+id/findbuilding"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Buildings Portal" />
+        </menu>
+    </item>
+    <item android:title="Find in Subscribed">
+        <menu>
+            <item
+                android:id="@+id/findsubcribed"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Subscribed Portal" />
+        </menu>
+    </item>
+
+</menu>
